@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "skia", "skia\skia.vcxproj", "{73BC60BA-DF87-306E-A681-78BEF1A93111}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "render-skia2", "render-skia2\render-skia2.vcxproj", "{7ACC1229-E6D4-378B-A44B-C3E3C973C1B8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{73BC60BA-DF87-306E-A681-78BEF1A93111} = {73BC60BA-DF87-306E-A681-78BEF1A93111}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73BC60BA-DF87-306E-A681-78BEF1A93111}.Debug|Win32.ActiveCfg = Debug|Win32
+		{73BC60BA-DF87-306E-A681-78BEF1A93111}.Debug|Win32.Build.0 = Debug|Win32
+		{73BC60BA-DF87-306E-A681-78BEF1A93111}.Release|Win32.ActiveCfg = Release|Win32
+		{73BC60BA-DF87-306E-A681-78BEF1A93111}.Release|Win32.Build.0 = Release|Win32
+		{7ACC1229-E6D4-378B-A44B-C3E3C973C1B8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7ACC1229-E6D4-378B-A44B-C3E3C973C1B8}.Debug|Win32.Build.0 = Debug|Win32
+		{7ACC1229-E6D4-378B-A44B-C3E3C973C1B8}.Release|Win32.ActiveCfg = Release|Win32
+		{7ACC1229-E6D4-378B-A44B-C3E3C973C1B8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {739624E0-FE52-4838-880C-E2D00B4EA4CE}
+	EndGlobalSection
+EndGlobal
